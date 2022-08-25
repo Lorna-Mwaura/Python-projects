@@ -9,7 +9,6 @@ if upper_bound.isdigit(): # check if user input is a number
     pass
 else:
     print('Enter valid number')
-
 random_number = random.randint(1,int(upper_bound))  # generate random number and store it in a variable
 print(random_number)
 

@@ -7,8 +7,9 @@ print('''Choose operation
 3.Multiplication
 4.Division
 ''')
-
 operation =int(input())
+print(operation)
+
 if operation <=4:
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
